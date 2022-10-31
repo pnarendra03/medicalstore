@@ -33,6 +33,10 @@ public class HomeController {
     public String signup(){
         return "signup";
     }
+    @GetMapping("/forgotpassword/")
+    public String forgot_password(){
+        return "forgotpassword";
+    }
     @GetMapping("/profile/editaddress")
     public String edit_address(){
         return "editaddress";
